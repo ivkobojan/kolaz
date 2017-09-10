@@ -47,6 +47,9 @@ title('Generisana pozadina, odaberite region od interesa')
 % odabira zeljenog regiona
 region = roipoly;
 
+% Pretvaranje u cisto binarnu sliku
+region = im2bw(region, 0.5);
+
 % Kada se zavrsi izbor zeljenog regiona, prikazuje crno bela slika.
 % Izabrani deo je prikazan belom bojom.
 figure

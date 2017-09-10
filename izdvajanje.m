@@ -55,3 +55,6 @@ imshow(region)
 %% Pamcenje slike
 % Izabranu sliku zapamtimo radi daljeg koriscenja
 imwrite(region,'odabrano.jpg');
+
+% pamcenje pozadine
+imwrite(pozadina,'pozadina.jpg');

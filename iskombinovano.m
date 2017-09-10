@@ -17,8 +17,7 @@ kolone = 640;
 %% Ucitavanje slika
 
 % ucitavanje slike na koju dodajemo druge
-% glavna = imread('glavna.jpg');
-glavna = imread('nebo.jpg');
+glavna = imread('glavna.jpg');
 figure
 imshow(glavna)
 title('Slika na koju lepimo ostale')
@@ -42,12 +41,12 @@ imshow(sablon2)
 title('Drugi sablon')
 
 % ucitavanje slika cije delove zelimo da nalepimo
-slika1 = imread('more.jpg');
+slika1 = imread('prva.jpg');
 figure
 imshow(slika1)
 title('Prva slika iz koje uzimamo deo prema sablonu 1')
 
-slika2 = imread('more.jpg');
+slika2 = imread('druga.jpg');
 figure
 imshow(slika2)
 title('Druga slika iz koje uzimamo deo prema sablonu 2')
